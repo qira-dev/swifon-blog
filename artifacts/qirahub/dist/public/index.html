@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <!-- Baseline title — overridden by GlobalSeoHead at runtime -->
+    <title>QiraHub</title>
+
+    <!-- Robots — overridden by GlobalSeoHead at runtime -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Open Graph baseline -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card baseline -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Favicon — overridden dynamically if favicon_url is set in admin -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Flash-prevention: apply saved theme before first paint -->
+    <script>
+      (function() {
+        var key = 'qirahub-site-theme';
+        var def = 'cyberpunk';
+        var saved;
+        try { saved = localStorage.getItem(key); } catch(e) {}
+        document.documentElement.setAttribute('data-theme', saved || def);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-lgR8jSQ8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B7D98RAl.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

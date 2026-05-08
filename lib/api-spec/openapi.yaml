@@ -1,0 +1,882 @@
+openapi: 3.1.0
+info:
+  title: Api
+  version: 0.1.0
+  description: QiraHub API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: posts
+    description: Blog posts
+  - name: categories
+    description: Post categories
+  - name: tags
+    description: Post tags
+  - name: translations
+    description: Multilingual translations
+  - name: stats
+    description: Dashboard statistics
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  # ── Posts ──────────────────────────────────────────────────────────────────
+  /posts:
+    get:
+      operationId: listPosts
+      tags: [posts]
+      summary: List all posts
+      parameters:
+        - name: lang
+          in: query
+          schema: { type: string }
+        - name: categoryId
+          in: query
+          schema: { type: integer }
+        - name: status
+          in: query
+          schema: { type: string, enum: [draft, published, archived] }
+        - name: featured
+          in: query
+          schema: { type: boolean }
+        - name: position
+          in: query
+          schema: { type: string, enum: [normal, featured, pinned, series] }
+        - name: limit
+          in: query
+          schema: { type: integer }
+        - name: offset
+          in: query
+          schema: { type: integer }
+        - name: search
+          in: query
+          schema: { type: string }
+      responses:
+        "200":
+          description: List of posts
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PostList"
+    post:
+      operationId: createPost
+      tags: [posts]
+      summary: Create a new post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreatePostBody"
+      responses:
+        "201":
+          description: Created post
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+
+  /posts/{id}:
+    get:
+      operationId: getPost
+      tags: [posts]
+      summary: Get a post by ID or slug
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer }
+        - name: lang
+          in: query
+          schema: { type: string }
+      responses:
+        "200":
+          description: Post
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    patch:
+      operationId: updatePost
+      tags: [posts]
+      summary: Update a post
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdatePostBody"
+      responses:
+        "200":
+          description: Updated post
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    delete:
+      operationId: deletePost
+      tags: [posts]
+      summary: Delete a post
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "204":
+          description: Deleted
+
+  /posts/slug/{slug}:
+    get:
+      operationId: getPostBySlug
+      tags: [posts]
+      summary: Get a post by slug
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema: { type: string }
+        - name: lang
+          in: query
+          schema: { type: string }
+      responses:
+        "200":
+          description: Post
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  # ── Categories ──────────────────────────────────────────────────────────────
+  /categories:
+    get:
+      operationId: listCategories
+      tags: [categories]
+      summary: List all categories
+      parameters:
+        - name: parentId
+          in: query
+          schema:
+            type: ["integer", "null"]
+        - name: includePostCount
+          in: query
+          schema: { type: boolean }
+      responses:
+        "200":
+          description: List of categories
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CategoryList"
+    post:
+      operationId: createCategory
+      tags: [categories]
+      summary: Create a category
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateCategoryBody"
+      responses:
+        "201":
+          description: Created category
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Category"
+
+  /categories/{id}:
+    get:
+      operationId: getCategory
+      tags: [categories]
+      summary: Get a category by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Category
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Category"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    patch:
+      operationId: updateCategory
+      tags: [categories]
+      summary: Update a category
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateCategoryBody"
+      responses:
+        "200":
+          description: Updated category
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Category"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    delete:
+      operationId: deleteCategory
+      tags: [categories]
+      summary: Delete a category
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer }
+        - name: reassignTo
+          in: query
+          schema:
+            type: ["integer", "null"]
+      responses:
+        "204":
+          description: Deleted
+
+  /categories/tree:
+    get:
+      operationId: getCategoryTree
+      tags: [categories]
+      summary: Get full category hierarchy tree
+      responses:
+        "200":
+          description: Category tree
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CategoryList"
+
+  # ── Tags ───────────────────────────────────────────────────────────────────
+  /tags:
+    get:
+      operationId: listTags
+      tags: [tags]
+      summary: List all tags
+      responses:
+        "200":
+          description: List of tags
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TagList"
+    post:
+      operationId: createTag
+      tags: [tags]
+      summary: Create a tag
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateTagBody"
+      responses:
+        "201":
+          description: Created tag
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Tag"
+
+  # ── Translations ─────────────────────────────────────────────────────────
+  /translations/{contentType}/{contentId}:
+    get:
+      operationId: getTranslations
+      tags: [translations]
+      summary: Get all translations for a content item
+      parameters:
+        - name: contentType
+          in: path
+          required: true
+          schema: { type: string, enum: [post, category, product, comparison] }
+        - name: contentId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Translations
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TranslationList"
+    put:
+      operationId: upsertTranslations
+      tags: [translations]
+      summary: Upsert translations for a content item
+      parameters:
+        - name: contentType
+          in: path
+          required: true
+          schema: { type: string, enum: [post, category, product, comparison] }
+        - name: contentId
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpsertTranslationsBody"
+      responses:
+        "200":
+          description: Upserted translations
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TranslationList"
+
+  # ── Stats ──────────────────────────────────────────────────────────────────
+  /stats/summary:
+    get:
+      operationId: getStatsSummary
+      tags: [stats]
+      summary: Get dashboard summary stats
+      responses:
+        "200":
+          description: Dashboard stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StatsSummary"
+
+  /stats/posts-per-category:
+    get:
+      operationId: getPostsPerCategory
+      tags: [stats]
+      summary: Get post counts grouped by category
+      parameters:
+        - name: lang
+          in: query
+          schema: { type: string }
+      responses:
+        "200":
+          description: Posts per category
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PostsPerCategoryList"
+
+  /stats/recent-posts:
+    get:
+      operationId: getRecentPosts
+      tags: [stats]
+      summary: Get most recently published posts
+      parameters:
+        - name: limit
+          in: query
+          schema: { type: integer }
+        - name: lang
+          in: query
+          schema: { type: string }
+      responses:
+        "200":
+          description: Recent posts
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PostList"
+
+  /stats/featured-posts:
+    get:
+      operationId: getFeaturedPosts
+      tags: [stats]
+      summary: Get featured/hero posts for homepage slider
+      parameters:
+        - name: lang
+          in: query
+          schema: { type: string }
+      responses:
+        "200":
+          description: Featured posts
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PostList"
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error
+
+    # ── Post ─────────────────────────────────────────────────────────────────
+    Post:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        slug:
+          type: string
+        content:
+          type: string
+        excerpt:
+          type: ["string", "null"]
+        metaTitle:
+          type: ["string", "null"]
+        metaDescription:
+          type: ["string", "null"]
+        focusKeyword:
+          type: ["string", "null"]
+        featuredImageUrl:
+          type: ["string", "null"]
+        videoUrl:
+          type: ["string", "null"]
+        status:
+          type: string
+          enum: [draft, published, archived]
+        position:
+          type: string
+          enum: [normal, featured, pinned, series]
+        sortOrder:
+          type: ["integer", "null"]
+        readTimeMinutes:
+          type: ["integer", "null"]
+        categoryId:
+          type: ["integer", "null"]
+        categoryName:
+          type: ["string", "null"]
+        categorySlug:
+          type: ["string", "null"]
+        categoryColor:
+          type: ["string", "null"]
+        tags:
+          type: array
+          items:
+            $ref: "#/components/schemas/Tag"
+        products:
+          type: ["string", "null"]
+        publishedAt:
+          type: ["string", "null"]
+          format: date-time
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - title
+        - slug
+        - content
+        - status
+        - position
+        - tags
+        - createdAt
+        - updatedAt
+
+    PostList:
+      type: array
+      items:
+        $ref: "#/components/schemas/Post"
+
+    CreatePostBody:
+      type: object
+      properties:
+        title:
+          type: string
+        slug:
+          type: string
+        content:
+          type: string
+        excerpt:
+          type: ["string", "null"]
+        metaTitle:
+          type: ["string", "null"]
+        metaDescription:
+          type: ["string", "null"]
+        focusKeyword:
+          type: ["string", "null"]
+        featuredImageUrl:
+          type: ["string", "null"]
+        videoUrl:
+          type: ["string", "null"]
+        status:
+          type: string
+          enum: [draft, published, archived]
+          default: draft
+        position:
+          type: string
+          enum: [normal, featured, pinned, series]
+          default: normal
+        sortOrder:
+          type: ["integer", "null"]
+        readTimeMinutes:
+          type: ["integer", "null"]
+        categoryId:
+          type: ["integer", "null"]
+        tagIds:
+          type: array
+          items:
+            type: integer
+        products:
+          type: ["string", "null"]
+        publishedAt:
+          type: ["string", "null"]
+          format: date-time
+      required:
+        - title
+        - slug
+        - content
+
+    UpdatePostBody:
+      type: object
+      properties:
+        title:
+          type: string
+        slug:
+          type: string
+        content:
+          type: string
+        excerpt:
+          type: ["string", "null"]
+        metaTitle:
+          type: ["string", "null"]
+        metaDescription:
+          type: ["string", "null"]
+        focusKeyword:
+          type: ["string", "null"]
+        featuredImageUrl:
+          type: ["string", "null"]
+        videoUrl:
+          type: ["string", "null"]
+        status:
+          type: string
+          enum: [draft, published, archived]
+        position:
+          type: string
+          enum: [normal, featured, pinned, series]
+        sortOrder:
+          type: ["integer", "null"]
+        readTimeMinutes:
+          type: ["integer", "null"]
+        categoryId:
+          type: ["integer", "null"]
+        tagIds:
+          type: array
+          items:
+            type: integer
+        products:
+          type: ["string", "null"]
+        publishedAt:
+          type: ["string", "null"]
+          format: date-time
+
+    # ── Category ──────────────────────────────────────────────────────────────
+    Category:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        slug:
+          type: string
+        description:
+          type: ["string", "null"]
+        icon:
+          type: ["string", "null"]
+        color:
+          type: ["string", "null"]
+        imageUrl:
+          type: ["string", "null"]
+        parentId:
+          type: ["integer", "null"]
+        sortOrder:
+          type: integer
+        isVisible:
+          type: boolean
+        metaTitle:
+          type: ["string", "null"]
+        metaDescription:
+          type: ["string", "null"]
+        postCount:
+          type: integer
+        children:
+          type: array
+          items:
+            $ref: "#/components/schemas/Category"
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - name
+        - slug
+        - sortOrder
+        - isVisible
+        - postCount
+        - children
+        - createdAt
+        - updatedAt
+
+    CategoryList:
+      type: array
+      items:
+        $ref: "#/components/schemas/Category"
+
+    CreateCategoryBody:
+      type: object
+      properties:
+        name:
+          type: string
+        slug:
+          type: string
+        description:
+          type: ["string", "null"]
+        icon:
+          type: ["string", "null"]
+        color:
+          type: ["string", "null"]
+        imageUrl:
+          type: ["string", "null"]
+        parentId:
+          type: ["integer", "null"]
+        sortOrder:
+          type: integer
+        isVisible:
+          type: boolean
+        metaTitle:
+          type: ["string", "null"]
+        metaDescription:
+          type: ["string", "null"]
+      required:
+        - name
+        - slug
+
+    UpdateCategoryBody:
+      type: object
+      properties:
+        name:
+          type: string
+        slug:
+          type: string
+        description:
+          type: ["string", "null"]
+        icon:
+          type: ["string", "null"]
+        color:
+          type: ["string", "null"]
+        imageUrl:
+          type: ["string", "null"]
+        parentId:
+          type: ["integer", "null"]
+        sortOrder:
+          type: integer
+        isVisible:
+          type: boolean
+        metaTitle:
+          type: ["string", "null"]
+        metaDescription:
+          type: ["string", "null"]
+
+    # ── Tag ──────────────────────────────────────────────────────────────────
+    Tag:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        slug:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - name
+        - slug
+        - createdAt
+
+    TagList:
+      type: array
+      items:
+        $ref: "#/components/schemas/Tag"
+
+    CreateTagBody:
+      type: object
+      properties:
+        name:
+          type: string
+        slug:
+          type: string
+      required:
+        - name
+        - slug
+
+    # ── Translation ─────────────────────────────────────────────────────────
+    Translation:
+      type: object
+      properties:
+        id:
+          type: integer
+        contentType:
+          type: string
+          enum: [post, category, product, comparison]
+        contentId:
+          type: integer
+        langCode:
+          type: string
+        field:
+          type: string
+        value:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - contentType
+        - contentId
+        - langCode
+        - field
+        - value
+        - createdAt
+        - updatedAt
+
+    TranslationList:
+      type: array
+      items:
+        $ref: "#/components/schemas/Translation"
+
+    UpsertTranslationsBody:
+      type: object
+      properties:
+        langCode:
+          type: string
+        fields:
+          type: object
+          additionalProperties:
+            type: string
+      required:
+        - langCode
+        - fields
+
+    # ── Stats ─────────────────────────────────────────────────────────────────
+    StatsSummary:
+      type: object
+      properties:
+        totalPosts:
+          type: integer
+        publishedPosts:
+          type: integer
+        draftPosts:
+          type: integer
+        totalCategories:
+          type: integer
+        totalTags:
+          type: integer
+        featuredPosts:
+          type: integer
+      required:
+        - totalPosts
+        - publishedPosts
+        - draftPosts
+        - totalCategories
+        - totalTags
+        - featuredPosts
+
+    PostsPerCategory:
+      type: object
+      properties:
+        categoryId:
+          type: integer
+        categoryName:
+          type: string
+        categorySlug:
+          type: string
+        categoryIcon:
+          type: ["string", "null"]
+        categoryColor:
+          type: ["string", "null"]
+        postCount:
+          type: integer
+      required:
+        - categoryId
+        - categoryName
+        - categorySlug
+        - postCount
+
+    PostsPerCategoryList:
+      type: array
+      items:
+        $ref: "#/components/schemas/PostsPerCategory"

@@ -1,0 +1,42 @@
+import { Router, type IRouter } from "express";
+import healthRouter from "./health";
+import postsRouter from "./posts";
+import categoriesRouter from "./categories";
+import tagsRouter from "./tags";
+import translationsRouter from "./translations";
+import statsRouter from "./stats";
+import productsRouter from "./products";
+import comparisonsRouter from "./comparisons";
+import authRouter from "./auth";
+import settingsRouter from "./settings";
+import socialLinksRouter from "./social-links";
+import contactMessagesRouter from "./contact-messages";
+import adminUsersRouter from "./admin-users";
+import adsRouter from "./ads";
+import couponsRouter from "./coupons";
+import autoTranslateRouter from "./auto-translate";
+import postReviewsRouter from "./post-reviews";
+import auditLogsRouter from "./audit-logs";
+
+const router: IRouter = Router();
+
+router.use(healthRouter);
+router.use(authRouter);
+router.use(postsRouter);
+router.use(categoriesRouter);
+router.use(tagsRouter);
+router.use(translationsRouter);
+router.use(statsRouter);
+router.use(productsRouter);
+router.use(comparisonsRouter);
+router.use(settingsRouter);
+router.use(socialLinksRouter);
+router.use(contactMessagesRouter);
+router.use(adminUsersRouter);
+router.use(adsRouter);
+router.use(couponsRouter);
+router.use(autoTranslateRouter);
+router.use(postReviewsRouter);
+router.use(auditLogsRouter);
+
+export default router;

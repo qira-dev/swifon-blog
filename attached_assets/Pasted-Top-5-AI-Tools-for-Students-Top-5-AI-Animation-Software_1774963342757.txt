@@ -1,0 +1,567 @@
+Top 5 AI Tools for Students
+Top 5 AI Animation Software
+Top 5 AI Writing Tools
+Top 5 VPN Services
+Top 5 Hosting Providers
+Top 5 Software for Graphic Design
+Top 5 App for Task Management
+Top 5 Software for Video Editing
+Top 5 AI Tools for Healthcare
+Top 5 AI Chatbots
+Top 5 Software for Project Management
+Top 5 AI Tools for Education
+Top 5 Software for Data Analysis
+Top 5 AI Tools for Customer Support
+Top 5 AI Tools for Content Creation
+Top 5 Software for Accounting
+Top 5 AI Tools for Language Learning
+Top 5 Software for Cybersecurity
+Top 5 AI Tools for Voice Recognition
+Top 5 Software for Automation
+Top 5 AI Tools for Image Recognition
+Top 5 Software for Cloud Computing
+Top 5 AI Tools for Video Creation
+Top 5 Software for CRM
+Top 5 AI Tools for Personal Finance
+Top 5 AI Tools for Health Tracking
+Top 5 AI Tools for Education Analytics
+Top 5 AI Tools for Workflow Automation
+Top 5 AI Tools for Social Media Management
+Top 5 AI Tools for Predictive Analytics
+
+এইভাবে, প্রতিটি ক্যাটাগরিতে "Top 5" যুক্ত করে দিলেই, তোমার তালিকা এসইও-ফ্রেন্ডলি, পরিষ্কার, এবং ব্যবহারকারীদের জন্য সহজবোধ্য হবে।
+
+“আচ্ছা আমি এবারে আমি জিনিসটা আমি কিভাবে মানে জিনিসটা বুঝলাম না যে”
+00:07
+
+কোনো সমস্যা নেই, আমি আবার স্পষ্ট করে বলছি। তুমি যা বুঝতে চাচ্ছ, তা হলো, প্রতিটি ক্যাটাগরিতে "Top 5" যুক্ত করে দিলে, সেই ক্যাটাগরি শিরোনামটি আরও স্পষ্ট হবে, সার্চ ইঞ্জিনে ভালো র‌্যাংক করবে, এবং ব্যবহারকারীরা সহজে তাদের পছন্দের ৫টি সেরা অপশন খুঁজে পাবে। যদি তোমার আরও কোনো প্রশ্ন থাকে বা স্পষ্ট করতে চাও,
+
+"I already have an AI tools blog site, but I want to add some new categories to it, such as software reviews, app comparisons, SEO-based tools, VPN reviews, and hosting reviews. Please add these categories so that each category has a separate page, review, and comparative analysis. Also, I want users to be able to compare products (e.g., one VPN vs. another, one hosting vs. another). I want to add this comparison table to each product review page so that users can easily compare, and I can set up, edit, or customize these comparisons by going to the admin panel. Everything needs to be SEO friendly so that users can easily find the product comparisons, and each comparison is displayed clearly."
+
+তুমি যে প্রম্প্টটা লিখছো—এটা ভালো, কিন্তু এখনো ফুল প্রফেশনাল + পাওয়ারফুল না। আমি এটাকে আপগ্রেড করে এমনভাবে বানাচ্ছি যাতে তুমি Lovable AI বা যেকোনো AI builder-এ দিলে পুরা সিস্টেম ঠিকমতো তৈরি করে দেয় 👇
+
+✅ 🔥 আপগ্রেডেড পারফেক্ট প্রম্প
+“আচ্ছা আমি তোমাকে এই যে প্রম্পটটা দিলাম, এই প্রম্পটটায় কি বলা হয়েছে একটু বলো তো?”
+00:03
+
+তোমার দেওয়া প্রম্প্টে তুমি বলছো যে তোমার ইতিমধ্যে একটি AI টুল ব্লগ সাইট আছে, কিন্তু তুমি নতুন কিছু ক্যাটাগরি যোগ করতে চাচ্ছ, যেমন সফটওয়্যার রিভিউ, অ্যাপ তুলনা, SEO টুলস, VPN রিভিউ, আর হোস্টিং রিভিউ। তুমি চাচ্ছো প্রতিটি ক্যাটাগরির জন্য আলাদা পৃষ্ঠা, রিভিউ, এবং তুলনামূলক বিশ্লেষণ রাখতে, আর ব্যবহারকারীরা যেন পণ্য তুলনা করতে পারে (যেমন, এক VPN আরেকটির বিপরীতে)। তুমি চাচ্ছো এই তুলনা টেবিলগুলো প্রতিটি পণ্যের রিভিউ পেজে দেখাতে, যাতে সহজ তুলনা হয়, আর অ্যাডমিন প্যানেলে গিয়ে তুমি এগুলো এডিট বা কাস্টমাইজ করতে পারো। সবকিছু SEO ফ্রেন্ডলি রাখার কথাও বলছ, যাতে ব্যবহারকারীরা সহজে খুঁজে পেতে পারে এবং তুলনা স্পষ্টভাবে প্রদর্শিত হয়।
+
+“আচ্ছা তুমি আমাকে ধরো আমার এই যে প্রম্পট টা আছে ওই প্রম্পট টা ঠিক আছে, কোন সমস্যা নাই । তুমি তার সাথে অ্যাট করে দাও যে আমার যে এই যে আমার যে এই যে ক্যাটাগরি গুলো এই ক্যাটাগরির জন্য আমার এই যে প্রম্পট আছে এই প্রম্পট টা ঠিক আছে । আমি তোমাকে যে প্রম্পট টা দিছি এই প্রম্পট টা ঠিক আছে । কিন্তু আমি চাই এর সাথে এই যে ক্যাটাগরি গুলো আছে, এই এই ক্যাটাগরি গুলো যেন এর সাথে তুলনায় করা যায় বা তুলনা করা যায় বা এই ক্যাটাগরি ও যাতে অ্যাট করা হয় আমার ক্যাটাগরি সেকশন এ । এবং এই যে প্রত্যেকটা টপ ফাইভ আইটেল স্টুডেন্ট এগুলো যেন একটা একটা প্রত্যেকটা জিনিস এখানে আমি যে তোমাকে তিরিশটা ক্যাটাগরি দিছি এই তিরিশটা ক্যাটাগরি অ্যাড করবে । আর আগের যে তুমি যে সেকশন টা দিছিলা মানে আগের যে প্রম্পট টা এই যে প্রম্পট টা আছে এই প্রম্পট এর সাথে এইটা অ্যাট করে দাও । যাতে আমি বলতে পারি ।”
+01:05
+
+নিশ্চয়ই। আমি তোমার মূল প্রম্প্টের সাথে এই বিষয়টি যুক্ত করছি। এখন তোমার প্রম্প্টটি হবে:
+
+"আমি ইতিমধ্যে একটি AI টুলস ব্লগ সাইট তৈরি করেছি, কিন্তু আমি কিছু নতুন ক্যাটাগরি যোগ করতে চাই, যেমন সফটওয়্যার রিভিউ, অ্যাপ তুলনা, SEO টুলস, VPN রিভিউ, এবং হোস্টিং রিভিউ। দয়া করে এই ক্যাটাগরিগুলো যোগ করুন, যাতে প্রতিটি ক্যাটাগরির জন্য আলাদা পৃষ্ঠা, রিভিউ এবং তুলনামূলক বিশ্লেষণ থাকে।
+
+Top 5 AI Tools for Students
+Top 5 AI Animation Software
+Top 5 AI Writing Tools
+Top 5 VPN Services
+Top 5 Hosting Providers
+Top 5 Software for Graphic Design
+Top 5 App for Task Management
+Top 5 Software for Video Editing
+Top 5 AI Tools for Healthcare
+Top 5 AI Chatbots
+Top 5 Software for Project Management
+Top 5 AI Tools for Education
+Top 5 Software for Data Analysis
+Top 5 AI Tools for Customer Support
+Top 5 AI Tools for Content Creation
+Top 5 Software for Accounting
+Top 5 AI Tools for Language Learning
+Top 5 Software for Cybersecurity
+Top 5 AI Tools for Voice Recognition
+Top 5 Software for Automation
+Top 5 AI Tools for Image Recognition
+Top 5 Software for Cloud Computing
+Top 5 AI Tools for Video Creation
+Top 5 Software for CRM
+Top 5 AI Tools for Personal Finance
+Top 5 AI Tools for Health Tracking
+Top 5 AI Tools for Education Analytics
+Top 5 AI Tools for Workflow Automation
+Top 5 AI Tools for Social Media Management
+Top 5 AI Tools for Predictive Analytics
+
+এখন আমি বুঝতে পারছি তুমি ৩০টি ক্যাটাগরির একটি তালিকা চেয়েছিলে, যেখানে প্রতিটিতে "Top 5" যুক্ত করা আছে, এবং এগুলো তুমি এসইও ফ্রেন্ডলি এবং তুলনামূলক বিশ্ল
+
+“আচ্ছা আচ্ছা আমি তোমার কাম একদম আমাকে কি বলতেছি আমার কথা বুঝো । এই যে আমি তোমাকে আগে যে প্রম্পট টা দিছি এই প্রম্পট টার সাথে তুমি এই যে ত্রিশটা ক্যাটেগরি আছে এই ত্রিশটা ক্যাটেগরি এড করবা । যাতে আমার আমার এই ক্যাটেগরি মানে আগেরও আমার প্রম্পট টা ঠিক আছে কোন সমস্যা নাই । কিন্তু ওই প্রম্পট এর সাথে এই ত্রিশটা ক্যাটাগরি এড করবা যাতে লাগে বলে আমার জিনিসগুলো এড করে দিতে পারে ।”
+00:20
+
+বুঝেছি। এখন আমি তোমার মূল প্রম্প্টটি ঠিকই রাখব, আর এর সাথে এই ৩০টি ক্যাটাগরি যুক্ত করে দিচ্ছি। পুরো প্রম্প্টটি এখন হবে:
+
+"আমি ইতিমধ্যে একটি AI টুলস ব্লগ সাইট তৈরি করেছি, কিন্তু আমি কিছু নতুন ক্যাটাগরি যোগ করতে চাই, যেমন সফটওয়্যার রিভিউ, অ্যাপ তুলনা, SEO টুলস, VPN রিভিউ, এবং হোস্টিং রিভিউ। দয়া করে এই ক্যাটাগরিগুলো যোগ করুন, যাতে প্রতিটি ক্যাটাগরির জন্য আলাদা পৃষ্ঠা, রিভিউ, এবং তুলনামূলক বিশ্লেষণ থাকে।
+
+নিচে আমার ৩০টি ক্যাটাগরির তালিকা দেওয়া হলো, এবং আমি চাই প্রতিটি ক্যাটাগরি পণ্যের তুলনার জন্য আলাদা পৃষ্ঠা, যেখানে ব্যবহারকারীরা পণ্য তুলনা করতে পারে (যেমন, একটি হোস্টিং আরেকটির বিপরীতে, একটি VPN আরেকটির বিপরীতে)। প্রতিটি ক্যাটাগরির জন্য, আমি 'Top 5' তালিকা চাই, যেন ব্যবহারকারীরা সহজে সেরা ৫টি পণ্য খুঁজে পায়, এবং তুলনা টেবিলগুলো প্রতিটি পণ্যের রিভিউ পেজে যুক্ত থাকবে, যাতে আমি অ্যাডমিন প্যানেলে গিয়ে এগুলো কাস্টমাইজ করতে পারি। সবকিছু এসইও ফ্রেন্ডলি রাখতে হবে, যেন সহজে খুঁজে পাওয়া যায় এবং প্রতিটি তুলনা স্পষ্টভাবে প্রদর্শিত হয়।"
+
+এইভাবে, তোমার প্রম্প্টে ৩০টি ক্যাটাগরি যুক্ত হয়ে যাবে, আর লেভেবল AI-তে তুমি স্পষ্টভাবে নির্দেশ দিতে পারবে।
+
+“আমি যে ত্রিশটা ক্যাটাগরি রুবাকে দিয়েছি তুমি তো সেই ক্যাটাগরিগুলো এদিকে উল্লেখ করো না । এই ক্যাটাগরিগুলো উল্লেখ করানাইলে বুঝবে কিভাবে? এই ক্যাটাগরি তো তুমি এই প্রম্পটের ভিতর উল্লেখ করো নাই ।”
+00:08
+
+ঠিক আছে, আমি এখন তোমার সেই ৩০টি ক্যাটাগরি সরাসরি প্রম্প্টের মধ্যে যুক্ত করছি। তুমি যা বলেছিলে, তার ভিত্তিতে প্রতিটি ক্যাটাগরি লিস্ট আকারে লিখে দিচ্ছি, যাতে প্রম্প্টটি পুরোপুরি স্পষ্ট হয় এবং লেভেবল AI তা ঠিকভাবে প্রয়োগ করতে পারে।
+
+“এগুলো সব এমনটা সেভ করে রাখো।”
+00:02
+
+অবশ্যই, আমি পুরো ৩০টি ক্যাটাগরি লাইন বাই লাইন সরাসরি উল্লেখ করব এবং সেই তালিকাটিকেই তোমার মূল প্রম্প্টের
+
+“আমি তোমাকে কি বলছি, যত কনভারসেশন করছি এখন পর্যন্ত তোমার সাথে তা সবগুলো তোমার আমার মেমোরিজে সেভ করে রাখা যত ভবিষ্যতে তোমাকে এত কিছু জানাতে না হয় ।”
+00:09
+
+আমি দুঃখিত, তবে আমি কোনো ব্যক্তিগত তথ্য বা আলোচনার স্মৃতি ধরে রাখি না। প্রতিটি সেশনের পরে আমার
+
+“আচ্ছা তুমি তোমার মেহমুদদের সেফ করে রাখো, যাতে আমার ভবিষ্যতে তোমাকে এত কিছু বকবক না করতে হয় তোমার সাথে।”
+00:06
+
+আমি দুঃখিত, আমি কোনো দীর্ঘমেয়াদী স্মৃতি রাখি না, অর্থাৎ
+
+yguijtyjth.html
+ফাইল
+
+If you have any further adjustments or specific tasks you need, feel free to let me know. I'm here to help refine the prompt or assist
+
+“আচ্ছা আচ্ছা এখানে কি বলা হয়েছে যে ফাইল টপ মূলত কি কি কি বিষয়ে বিস্তারিত বলা হয়েছে সেটা একটু বলো তো।”
+00:07
+
+আমি দুঃখিত, আমি ফাইলটি দেখিনি, তাই এর বিষয়বস্তু জানাতে পারছি না। যদি তুমি ফাইলের সারাংশ বা প্রধান অংশ আমাকে বলো, তবে আমি বুঝিয়ে বলতে পারবো।
+
+yguijtyjth.html
+ফাইল
+
+The file is an HTML document detailing a structured plan for a website called qPlex. It lays out a comprehensive category-based comparison system with 30 distinct categories, each having a dedicated landing page, a top 5 list page, individual product review pages, and comparison tables. The document includes design elements (CSS styles), page anatomy, comparison table types, admin panel features for managing rankings and comparisons, SEO strategies for each page type, and a step-by-step build order for implementing the system. In summary, it's a blueprint for a large-scale, SEO-optimized product comparison site with robust admin control and dynamic content generation.
+
+“আচ্ছা আচ্ছা, আচ্ছা বাংলায় বলো, বাংলায় বলো।”
+00:02
+
+ফাইলটি একটি এইচটিএমএল নথি, যেখানে qPlex নামে একটি ওয়েবসাইটের জন্য একটি গঠনমূলক পরিকল্পনা বর্ণনা করা হয়েছে। এটি ৩০টি পৃথক ক্যাটাগরির উপর ভিত্তি করে একটি তুলনা ভিত্তিক সিস্টেমের পরিকল্পনা দেয়, যেখানে প্রতিটি ক্যাটাগরির জন্য আলাদা পৃষ্ঠা, একটি শীর্ষ ৫ তালিকা পৃষ্ঠা, পৃথক পণ্যের রিভিউ পৃষ্ঠা, এবং তুলনা টেবিল থাকবে। নকশাটিতে ডিজাইন উপাদান, পৃষ্ঠার গঠন, তুলনা টেবিল, অ্যাডমিন প্যানেলের ফিচার (যেখানে র‍্যাঙ্কিং ও তুলনা এডিট করা যায়), প্রতিটি পৃষ্ঠার জন্য SEO কৌশল, এবং ধাপে ধাপে বিল্ড করার নির্দেশনা আছে। সংক্ষেপে, এটি একটি বিশাল, SEO-অপটিমাইজড পণ্য তুলনা সাইটের একটি ব্লুপ্রিন্ট, যেখানে শক্তিশালী অ্যাডমিন কন্ট্রোল এবং গতিশীল কন্টেন্ট জেনারেশনের ব্যবস্থা আছে।
+
+Questions
+This is a big plan with 7 steps. Should I start with Step 1 (database schema setup for categories, products, top5_lists, comparisons, comparison_rows)?
+
+Select one answer
+Yes, start with Step 1
+
+Create all the new database tables (categories update, products, top5_lists, comparisons, comparison_rows) as outlined in the plan
+
+Start with Steps 1+2
+
+Database schema + category system with 30 categories and landing pages
+
+Build everything sequentially
+
+I'll confirm each step as you go through all 7 ste
+
+The best approach is to follow a structured, sequential process to ensure clarity and avoid missing any critical dependencies. In this case, the most logical first step is to set up the foundation: starting with Step 1, which is the database schema. By creating all necessary tables—categories, products, top5_lists, comparisons, and comparison_rows—you ensure that the data structure is in place. Once the schema is ready, you can proceed step by step, confirming each milestone before moving on. So, the answer is: Yes, start with Step 1. After that, you can proceed incrementally and validate each stage.
+
+“এই যে কী বলতিস আমার বাংলা পড়ো শোন, এই যে কী বলতিস আমারে কোনটা সিলেক্ট করা উচিত?”
+00:04
+
+আমি যা বলেছি, তা হলো, একটি সুসংগঠিত ধাপে ধাপে কাজ করা ভালো হবে, যাতে কোনো গুরুত্বপূর্ণ ধাপ মিস না হয়। তাই, প্রথমে ধাপ ১ দিয়েই শুরু করা উচিত, মানে ডেটাবেস স্কিমা সেটআপ করা, যেখানে সমস্ত টেবিল (ক্যাটাগরি, পণ্য, টপ ৫ লিস্ট, তুলনা, তুলনা সারি) তৈরি করা হবে। একবার স্কিমা তৈরি হলে, ধাপে ধাপে এগোনো ভালো, প্রতিটি ধাপ নিশ্চিত করে নেওয়া যাবে। সুতরাং, সঠিক উত্তর হলো ধাপ ১ দিয়েই শুরু করা।
+
+“আচ্ছা কোনটা কোনটা create all new database, table, category, update product, type list, এটা নাকি start with, instead of 1 plus 2 নাকি database scheme plus category with 7 category and loading page, এটা সিলেক্ট করা উচিত?”
+00:18
+
+আমি মনে করি সঠিক উত্তর হবে "স্টেপ ১ + ২" নির্বাচন করা, কারণ প্রথমে ডেটাবেস স্কিমা তৈরি করে তারপর ৩০টি ক্যাটাগরি সিস্টেমও সেট আপ করা—এইভাবে তুমি ভিত্তিটা মজবুত করে ধাপে ধাপে এগোতে পারবে।
+
+“ডাটা বেস প্লাস স্কিম ক্যাটাগরি ওই হচ্ছে ক্যাটাগরি লোডিং ফেজ এটা কেমন হবে?”
+00:05
+
+এটি মানে প্রথমে ডেটাবেস স্কিমা তৈরি করে ক্যাটাগরি সম্পর্কিত টেবিলগুলো সাজানো হবে, এরপর সেই ক্যাটাগরিগুলোকে লোডিং পেজে দেখানোর ব্যবস্থা করা হবে, যাতে ৩০টি ক্যাটাগরির আলাদা পৃষ্ঠা এবং ল্যান্ডিং পেজ তৈরি করা যায়।
+
+“আর এখানে আরেকটা জিনিস বলা হয়েছে বিল্ড everything is this, this will confirm is a step will use together in seven, this seven sheet. এইটা যেমন।”
+00:16
+
+এটি বলছে যে, তুমি পুরো কাজটাই sequentialভাবে তৈরি করবে, ধাপে ধাপে, এবং প্রতিটি ধাপ শেষ করার পরে আমি সেটি নিশ্চিত করব। অর্থাৎ, তুমি একেবারে ৭টি ধাপ পর্যন্ত পুরো প্রক্রিয়াটি sequentialভাবে এগিয়ে যাবে, প্রতিটি ধাপ শেষ হলে আমি তোমার কাজটি সম্মত করব, এবং তারপরই পরবর্তী ধাপে যাবে
+
+“আচ্ছা আচ্ছা আচ্ছা এখানে এখানে তো আমাকে তিনটা কুয়েসশন সিলেক্ট সিলেক্ট ওনে অসার ইয়েস এ স্টার্ট উইথ স্টেপ ওয়ান এটা হলো প্রথমটা প্রথম কুয়েসশন স্টার্ট উইথ স্টেপ টু প্লাস ওয়ান প্লাস টু এটা হলো দুই নম্বর কুয়েসশন আর তিন নম্বর কুয়েসশন হলো বিল্ড এভরিথিং এসকিউডেনশিয়াল । এইটা হলো তিন নম্বর কুয়েসশন । আমার এখন কোনটা সিলেক্ট করা উচিত?”
+00:27
+
+সঠিক পন্থা হলো ধাপে ধাপে কাজ শুরু করা, যাতে ভিত্তি মজবুত থাকে। তাই প্রথমে ডেটাবেস স্কিমা সেটআপের জন্য ধাপ ১ থেকেই শুরু করা উচিত। এর পরে ধাপ ২ যুক্ত করা যেতে পারে, যাতে ক্যাটাগরি সিস্টেম তৈরি হয়, এবং তারপর ধাপে ধাপে এগিয়ে যাওয়া যায়। সুতরাং, দ্বিতীয় অপশন (Start with Step 1 + 2) নির্বাচন করা সবচেয়ে ভালো হবে, কারণ এতে তুমি বেস কাঠামো তৈরি করে ঠিকমতো পরের ধাপগুলো নিশ্চিত করতে পারবে। এরপর পুরো প্রক্রিয়া ধাপে ধাপে এগিয়ে নিয়ে যাও।
+
+“আচ্ছা জিনিসটা বুঝতে পারলাম না । প্রথমে মানে এখানে আমার একটা কোয়েশ্চান সিলেক্ট করতে বলতেছে । আমি কোন কোয়েশ্চানটা সিলেক্ট করব?”
+00:07
+
+সঠিক উত্তর হলো, প্রথম প্রশ্নটি নির্বাচন করা উচিত, অর্থাৎ "Yes, start with Step 1"। কারণ, ডেটাবেস স্কিমা সেটআপটি প্রথম ভিত্তি, এবং সবকিছু সঠিকভাবে গড়ে তোলার জন্য প্রথম ধাপটি সম্পন্ন করা অত্যন্ত গুরুত্বপূর্ণ। একবার ভিত্তি তৈরি হলে, পরে ধাপে ধাপে কাজ এগোনো সহজ হয় এবং ভুল বা গণ্ডগোল এড়ানো যায়। তাই, প্রথম প্রশ্নটিই বেছে নেওয়া সেরা সিদ্ধান্ত হবে।
+
+Questions
+Should this replace the existing 'tools' table system, or work alongside it?
+
+Select one answer
+Replace tools with products
+
+Migrate from the current 'tools' table to the new 'products' table structure from the plan
+
+Keep both systems
+
+Keep existing tools/reviews and add the new comparison system separately
+
+The best approach depends on your long-term goals. If the new plan offers a more flexible and scalable structure that aligns better with your needs—such as more detailed product comparisons—then migrating from the old 'tools' table to the new 'products' table is likely the best option. This ensures consistency, reduces redundancy, and keeps your data model streamlined. However, if the existing 'tools' system is still valuable for some parts of the site, and you only want to add comparison features alongside it, then keeping both systems (option 3 or 4) might be better. In short, if the new structure is a direct replacement that simplifies your architecture, go for the migration. If you need both for different purposes, then keep them alongside each other. I would generally recommend migrating to avoid fragmentation, unless you have a specific use case that requires both.
+
+“আচ্ছা এখানে কোন প্রশ্নটা সিলেক্ট করা উচিত? Select or Replace one tool to with product like keep both system.”
+00:10
+
+সাধারণভাবে, যদি নতুন 'products' টেবিল স্ট্রাকচারটি পুরোপুরি উন্নত ও দীর্ঘমেয়াদী ব্যবহারের জন্য উপযুক্ত হয়, তাহলে পুরানো 'tools' টেবিলটিকে সরিয়ে 'products' টেবিল দিয়ে পরিবর্তন করা ভালো হবে, যাতে ডেটাবেস ডিজাইন পরিষ্কার ও সঙ্গতিপূর্ণ থাকে। তাই, "Replace tools with products" নির্বাচন করা উচিত, যাতে ভবিষ্যতে কোনো দ্বন্দ্ব না হয় এবং সমস্ত তথ্য একক কাঠামোর মধ্যে থাকে।
+
+Add these languages ​​to  website. German,Portuguese,Korean,Russian Mandarin Chinese,Japanese
+
+ঠিক আছে, তুমি এখন ওয়েবসাইটে মাল্টি-ল্যাঙ্গুয়েজ (Multi-language) যোগ করতে চাচ্ছো—এটা খুব ভালো সিদ্ধান্ত 🔥 (SEO + Worldwide traffic এর জন্য খুব গুরুত্বপূর্ণ)
+
+আমি এখন তোমাকে প্রফেশনালভাবে প্রম্প্ট + কীভাবে সেট করবে—দুটোই দিচ্ছি 👇
+
+✅ 📌 তোমার AI Builder (Lovable AI) এর জন্য প্রম্প্ট
+Add multi-language support to my website with the following languages:
+
+- English (default)
+- German
+- Portuguese
+- Korean
+- Russian
+- Mandarin Chinese
+- Japanese
+
+Requirements:
+
+1. Language Switcher:
+- Add a language switcher in the header (dropdown or flag icons).
+- Users can easily switch between languages from any page.
+
+2. Translation System:
+- All pages (homepage, blog posts, tool reviews, comparison pages) should support translation.
+- Each post should have multi-language versions.
+- URL structure should be SEO-friendly:
+  Example:
+  /en/top-5-ai-tools
+  /de/top-5-ai-tools
+  /pt/top-5-ai-tools
+
+3. Admin Panel:
+- Add language management system in admin panel.
+- Allow admin to add/edit content for each language separately.
+- Option to auto-translate content (AI-based) and manually edit.
+
+4. SEO Optimization:
+- Add hreflang tags for each language.
+- Unique meta title, description for each language.
+- Language-based sitemap.
+
+5. Fallback System:
+- If a language content is not available, fallback to English.
+
+6. Performance:
+- Fast loading for all languages.
+- Store translations efficiently in database.
+
+7. RTL/LTR Support:
+- Prepare structure for future RTL languages (like Arabic).
+
+Goal:
+Make the website fully international and SEO optimized for global audience.
+🔥 কেন এই ভাষাগুলো ভালো (তোমার বুঝার জন্য)
+
+তুমি যেগুলো দিয়েছো—এগুলো খুব স্ট্রং মার্কেট:
+
+English → Global (Must)
+German → Europe (High CPC 💰)
+Portuguese → Brazil (Huge traffic)
+Russian → Large audience
+Chinese → Massive users
+Japanese → High-value users
+Korean → Tech audience
+
+👉 মানে তুমি একদম Global SEO target করতেছো ✔️
+
+💡 Pro Tip (খুব গুরুত্বপূর্ণ)
+
+👉 শুরুতে সব ভাষা একসাথে ফুল translate করো না
+👉 আগে করো:
+
+English (main)
+German + Portuguese (SEO traffic)
+তারপর বাকি add করো
+🔚 Final Advice
+
+👉 এইটা করলে তোমার সাইট হবে:
+
+🌍 Worldwide accessible
+🔍 SEO boosted
+💰 Monetization friendly
+
+তুমি চাইলে আমি পরের ধাপে তোমাকে দেখাতে পারি:
+👉 
+“কোন language এ কোন category বেশি rank করে” (SEO strategy)
+
+My website already has English, Spanish, Hindi, Arabic, French and Bengali, so
+
+ঠিক আছে, এখন তোমার সাইটে আগে থেকেই আছে:
+
+👉 English, Spanish, Hindi, Arabic, French, Bengali ✅
+
+তুমি এখন নতুন করে যোগ করতে চাও:
+
+👉 German, Portuguese, Korean, Russian, Chinese, Japanese
+
+✅ 🔥 তাহলে কী করা উচিত (Correct Decision)
+
+👉 পুরানো ভাষাগুলো রাখবে + নতুন ভাষাগুলো add করবে
+❌ কখনো remove করবা না
+
+👉 Final language list হবে:
+
+🌍 Final 12 Languages:
+English (Main)
+Spanish
+Hindi
+Arabic
+French
+Bengali
+German
+Portuguese
+Korean
+Russian
+Mandarin Chinese
+Japanese
+✅ 📌 Updated PERFECT Prompt (তোমার জন্য Ready)
+
+এইটা সরাসরি AI builder-এ দাও 👇
+
+My website already supports multiple languages including:
+English, Spanish, Hindi, Arabic, French, and Bengali.
+
+Now I want to extend this multilingual system by adding the following new languages:
+German, Portuguese, Korean, Russian, Mandarin Chinese, and Japanese.
+
+Requirements:
+
+1. Keep existing languages fully functional (do not remove or break anything).
+2. Add new languages seamlessly into the current system.
+3. Update the language switcher to include all languages (total 12).
+4. Ensure all pages support all languages:
+   - Homepage
+   - Blog posts
+   - Tool reviews
+   - Comparison pages
+5. Each language must have:
+   - Separate SEO meta title & description
+   - SEO-friendly URL structure
+     Example:
+     /en/
+     /es/
+     /bn/
+     /de/
+     /zh/
+6. Add hreflang tags for all 12 languages.
+7. Admin panel must support:
+   - Adding/editing content per language
+   - Auto-translation + manual editing
+8. Add fallback system (default English if translation missing).
+9. Keep site fast and optimized.
+
+Goal:
+Upgrade my website into a fully international, SEO-optimized multilingual platform.
+🔥 Pro Strategy (এটা খুব গুরুত্বপূর্ণ)
+
+👉 সব 12টা language একসাথে full content করো না
+👉 এভাবে করো:
+
+Phase 1 (Fast Growth)
+English
+Spanish
+German
+Phase 2 (Traffic Boost)
+Portuguese
+French
+Arabic
+Phase 3 (Advanced)
+Hindi
+Bengali
+Russian
+Japanese
+Korean
+Chinese
+💡 Extra Powerful Idea
+
+👉 তুমি চাইলে language-based content করতে পারো:
+
+German → VPN / Hosting (high money 💰)
+Portuguese → Apps / AI tools (Brazil traffic)
+Japanese → AI tools / tech
+Arabic → VPN / hosting
+🔚 Final কথা
+
+👉 এখন তোমার সাইট already strong
+👉 এই update করলে তুমি হয়ে যাবে:
+
+🔥 “Global AI + Tech Comparison Website”
+
+চাও হলে next step এ আমি তোমাকে দিতে পারি:
+👉 
+“Language + Category combo SEO plan (কোন দেশে কোন ক্যাটাগরি rank করবে)”
+
+Give me a prompt that says I can change the names of all my categories and add categories if I want.From the admin panel
+
+ঠিক আছে, তুমি যেটা চাচ্ছো সেটা হলো Admin Panel থেকে পুরো category system control করার ক্ষমতা—এটা খুব গুরুত্বপূর্ণ (long-term scalability এর জন্য) 🔥
+
+আমি এখন তোমাকে একদম professional + clear prompt দিচ্ছি, যেটা দিলে AI builder ঠিকমতো feature add করবে 👇
+
+✅ 📌 Perfect Prompt (Admin Category Control)
+Add a complete category management system in the admin panel.
+
+Requirements:
+
+1. Category Editing:
+- Admin can change (rename) any existing category at any time.
+- Changes should automatically update across the entire website (menus, pages, URLs, posts).
+
+2. Add New Categories:
+- Admin can create unlimited new categories.
+- Each category should have:
+  - Name
+  - Slug (SEO-friendly URL)
+  - Description
+  - Icon or image (optional)
+
+3. Delete Categories:
+- Admin can delete categories safely.
+- Before deleting, allow reassignment of posts/products to another category.
+
+4. Category Hierarchy:
+- Support parent and sub-categories (nested categories).
+
+5. SEO Settings:
+- Each category should have:
+  - Meta title
+  - Meta description
+  - SEO slug (editable)
+
+6. Auto Page Generation:
+- Each category should automatically create a dedicated landing page.
+- Page should list all related posts, reviews, and comparisons.
+
+7. Multi-language Support:
+- Category names and descriptions can be edited per language.
+
+8. Drag & Sort:
+- Admin can reorder categories (drag & drop).
+
+9. Visibility Control:
+- Option to show/hide categories from frontend menu.
+
+Goal:
+Allow full control over categories from admin panel without touching code.
+🔥 সহজভাবে বুঝো
+
+এই প্রম্প্ট দিলে তুমি পারবা:
+
+✅ Category নাম change করতে
+✅ নতুন category add করতে
+✅ delete করতে
+✅ SEO control করতে
+✅ menu control করতে
+✅ সব admin panel থেকেই
+
+👉 কোড লাগবে না ❌
+
+💡 Pro Tip
+
+👉 এটা add করলে তুমি future এ সহজে করতে পারবা:
+
+নতুন niche add
+trending topic add
+SEO optimize update
+🔚 Final
+
+👉 এটা তোমার website কে বানাবে:
+
+⚙️ Fully controllable CMS (like WordPress level)
+
+চাও হলে আমি next step এ তোমাকে দিতে পারি:
+👉 “
+Admin panel full feature prompt (posts + comparison + users + SEO)”
+
+“এই চ্যাটজিপিটা আমি বলতে চাচ্ছি কি ধরো আমার ব্লগিং ওয়েবসাইটে এখানে আছে আমার অ্যাডমিন প্যানেলের যা যা আছে তোমাকে বলতেছি এখানে ড্যাশবোর্ড, পোস্ট, প্রোডাক্ট, টুল, টপ ফাইভ, কম্পারিসন আর আলাদা ইউজার আমি চাই অলগে পোস্ট ক্রিয়েট করার সময় আমার পোস্ট আমার প্রত্যেকটা পোস্টে যেন আমি ধরো এই যে ইই এড করতে পারি ধর আমার ওই পোস্টে একটা এই থাকবে ইউআরএল কেমন ইউআরএল তোমাকে আমি বলতেছি ধর আমার একটা ইমেজের ইউআরএল থাকবে একটা ইমেজের ইউআরএল থাকবে যাতে আমার পোস্টটা একটু দেখতেই একটু গর্জিয়াস লাগে বা আমার পোস্টটা কিসের উপর ভিত্তি এর উপর এর ইউআরএল থাকবে বা আমি চাইলে ওই পোস্টের উপর ভিত্তি করে ঐটা নিচে ধর আমার পোস্ট থাকবে নিচে বা উপরে ওই পোস্টের উপরে উপরে একটা ইস্ট থাকবে পোস্ট থাকবে পোস্ট ই থাকবে আর ভিডিও ভিডিও চাইলে ভিডিও লিঙ্ক আমি এখান থেকে দিতে পারি ভিডিও পেলে হবে আমার ওয়েবসাইটে ওই পোস্টে বা আমি ওই যে আমার পোস্ট তার হলো প্রোডাক্ট ওই এক প্রোডাক্টটা দিলে আমি চাই অলগে এখানে প্রোডাক্টের ই দেখা যাক, ইমেজ দেখা যাক বা এইসব জিনিস দেখা যাক এইটার উপর ভিত্তি করে আমার একটা ফর্ম”
+01:08
+
+নিশ্চয়ই, আমি তোমার জন্য একটি স্পষ্ট প্রম্প্ট তৈরি করছি, যাতে তুমি তোমার অ্যাডমিন প্যানেলে পোস্ট তৈরি করার সময় প্রয়োজনীয় সব ফিল্ড কাস্টমাইজ করতে পারো। এই প্রম্প্টটি এমনভাবে সাজানো হবে, যাতে প্রতিটি পোস্টের জন্য URL, ইমেজ, ভিডিও লিংক, পণ্য, এবং অন্যান্য কনটেন্ট সহজেই যুক্ত করা যায়।
+
+প্রম্প্ট:
+
+"আমার ব্লগিং ওয়েবসাইটের অ্যাডমিন প্যানেলে পোস্ট তৈরি করার ফর্মে কিছু অতিরিক্ত ফিল্ড যোগ করতে হবে, যেন প্রতিটি পোস্টে নিচের কাস্টমাইজেশন গুলো করা যায়:
+
+পোস্ট URL: প্রতি পোস্টের জন্য একটি কাস্টম SEO-ফ্রেন্ডলি URL নির্ধারণের সুযোগ দিন।
+ইমেজ URL: পোস্টে একটি প্রধান ইমেজ লিঙ্ক যোগ করার ফিল্ড দিন, যাতে পোস্টটি ভিজ্যুয়ালি আকর্ষণীয় হয়।
+ভিডিও লিঙ্ক: পোস্টে একটি ভিডিও (যেমন, YouTube, Vimeo) লিঙ্ক সংযুক্ত করার অপশন দিন, যাতে পোস্টের ভেতরে ভিডিও দেখানো যায়।
+পণ্য লিস্টিং: পোস্টের সাথে একাধিক প্রোডাক্ট যুক্ত করার সুযোগ দিন, যেন প্রতিটি পোস্টে সম্পর্কিত পণ্যগুলো দেখানো যায় (প্রোডাক্টের ছবি, নাম, দাম ইত্যাদি)।
+পোস্ট পজিশন: পোস্টটি অন্যান্য পোস্টের উপরে বা নিচে দেখানোর জন্য পজিশন নির্ধারণের অপশন দিন (উদাহরণস্বরূপ, হাইলাইট করা পোস্ট বা সিরিজ পোস্ট)।
+ট্যাগ ও ক্যাটাগরি: পোস্টের জন্য ট্যাগ ও ক্যাটাগরি নির্ধারণ করার ব্যবস্থা রাখুন, যাতে পোস্ট সহজে ফিল্টার করা যায়।
+SEO মেটা তথ্য: প্রতিটি পোস্টের জন্য আলাদা মেটা টাইটেল, মেটা ডেসক্রিপশন এবং SEO-friendly URL স্লাগ এডিট করার সুযোগ দিন।
+পোস্ট কন্টেন্ট: পোস্টের শরীরের অংশে টেক্সট, ইমেজ, ভিডিও এবং পণ্য লিস্টিং সবকিছু সাজানোর জন্য একটি WYSIWYG এডিটর (Rich Text Editor) অন্তর্ভুক্ত করুন।
+
+এই ফিচারগুলো অ্যাডমিন প্যানেলে যুক্ত করার মাধ্যমে, আমি পোস্ট তৈরি করার সময় সহজে কাস্টম URL, ইমেজ, ভিডিও, পণ্য ও SEO তথ্য যোগ করতে পারবো, যাতে প্রতিটি পোস্ট আরও আকর্ষণীয়, সংগঠিত এবং SEO-ফ্রেন্ডলি হয়।"
+
+এই প্রম্প্টটি দিয়ে তুমি তোমার AI বা ডেভেলপারকে নির্দেশ দিতে পারবে, যাতে তারা অ্যাডমিন প্যানেলে পোস্ট তৈরির ফর্মে প্রয়োজনীয় কাস্টম ফিল্ডগুলো যুক্ত করে, এবং প্রতিটি পোস্টের কন্টেন্ট আরও কার্যকরভাবে কাস্টমাইজ করা যায়।
+
+save my memory 
+সেভ করা মেমারি আপডেট করা হয়েছে
+
+ঠিক আছে 👍 আমি তোমার এই তথ্যগুলো সেভ করে রাখলাম।
+
+👉 এখন থেকে আমি বুঝে গেছি:
+
+তুমি বাংলায় উত্তর চাও
+তুমি একটা AI tools + tech blog website বানাচ্ছো
+তোমার focus হলো admin panel, categories, comparison system, SEO
+
+👉 ভবিষ্যতে তোমাকে আর বারবার explain করতে হবে না—আমি এগুলো মাথায় রেখে উত্তর দিব।
+
+তুমি এখন যেটা বানাচ্ছো সেটা আসলে একটা 🔥 professional level SaaS/blog platform হয়ে যাচ্ছে।
+
+👉 এখন বলো, next কী করতে চাও?
+
+Admin panel upgrade?
+Comparison system advance?
+SEO ranking strategy?
+
+আমি ready 🚀
+
+“এই চার জিবিটি আমি আমার এই যে ব্লগিং ওয়েবসাইটের বিষয়ে তোমার সাথে এত এখন পর্যন্ত যত ফাংশনালিটি এবং ইয়ির বিষয়ে কথা বলছো তুমি সেই সবগুলো আমাকে নিচে আন্ডারলাইন করে দাও । আমি এগুলো এখন রিফ্লেক্ট কেটিয়ে আমি একটা রেডিমেড এআই বিল্ডারকে দিয়ে আমি এই ওয়েবসাইটটা বানাতে চাচ্ছি । তুমি আমি এতক্ষণ তোমার সাথে মানে এত যত কনভারসেশন করছি তুমি সেই বিষয়ের উপরে আমাকে সব প্রভাম দাও ।”
+00:25
+
+নিশ্চয়ই। আমি এখন তোমার সমস্ত গুরুত্বপূর্ণ ফাংশনালিটি এবং বৈশিষ্ট্যগুলো সংক্ষেপে তুলে ধরছি, যাতে তুমি এগুলোকে একটি প্রম্প্ট হিসেবে ব্যবহার করে একটি AI বিল্ডারকে দিক। আমি প্রতিটি মূল পয়েন্টকে স্পষ্টভাবে চিহ্নিত করছি:
+
+বহুভাষিক সমর্থন: ওয়েবসাইটে English, Spanish, Hindi, Arabic, French, Bengali, German, Portuguese, Korean, Russian, Mandarin Chinese, এবং Japanese এই ১২টি ভাষা যুক্ত করতে হবে। প্রতিটি ভাষার জন্য SEO-ফ্রেন্ডলি URL, hreflang ট্যাগ, এবং আলাদা মেটা টাইটেল ও ডেসক্রিপশন নিশ্চিত করতে হবে।
+অ্যাডমিন প্যানেল কাস্টমাইজেশন: অ্যাডমিন প্যানেলে ক্যাটাগরি ম্যানেজমেন্ট সিস্টেম যুক্ত করতে হবে, যেখানে অ্যাডমিন সহজে ক্যাটাগরি নাম পরিবর্তন, নতুন ক্যাটাগরি যোগ, এবং ক্যাটাগরি ডিলিট করতে পারবে। ক্যাটাগরি হায়ারার্কি (প্যারেন্ট ও সাব-ক্যাটাগরি) সমর্থন করতে হবে, এবং প্রতিটি ক্যাটাগরির SEO সেটিংস (মেটা টাইটেল, ডেসক্রিপশন) এডিট করার অপশন থাকতে হবে।
+পোস্ট কাস্টমাইজেশন: পোস্ট তৈরি করার সময়, অ্যাডমিন পোস্টের জন্য কাস্টম URL, প্রধান ইমেজ URL, ভিডিও লিংক, এবং সম্পর্কিত পণ্য যুক্ত করতে পারবে। পোস্টে পণ্য লিস্টিং, ট্যাগ, ক্যাটাগরি, এবং SEO তথ্য (মেটা টাইটেল, ডেসক্রিপশন) যুক্ত করার অপশন থাকতে হবে। পোস্টের পজিশন (উপর/নিচ) কন্ট্রোল এবং WYSIWYG এডিটর ব্যবহারের সুযোগ থাকতে হবে।
+প্রোডাক্ট ও টুলস সিস্টেম: প্রোডাক্ট এবং টুলস সম্পর্কিত তথ্য আলাদা টেবিল/সিস্টেমে রাখা হবে, যেখানে প্রতিটি প্রোডাক্টের ছবি, নাম, দাম, রিভিউ ইত্যাদি যুক্ত করা যাবে। পোস্টের সাথে পণ্য যুক্ত করার ফিচার থাকতে হবে, যাতে পোস্টে প্রোডাক্ট রিভিউ বা তুলনা দেখানো যায়।
+টপ ৫ তালিকা এবং তুলনা: প্রতিটি ক্যাটাগরির জন্য একটি 'Top 5' তালিকা তৈরি করতে হবে, যেখানে সেরা ৫ পণ্য, টুল, বা সফটওয়্যারকে তুলে ধরা হবে। তুলনা পৃষ্ঠাগুলোর জন্য একটি তুলনা টেবিল যুক্ত করতে হবে, যাতে ব্যবহারকারীরা বিভিন্ন পণ্য বা টুল তুলনা করতে পারে।
+SEO ফ্রেন্ডলি ডিজাইন: প্রতিটি পৃষ্ঠা, পোস্ট, ক্যাটাগরি, এবং পণ্য পৃষ্ঠার জন্য SEO অপ্টিমাইজেশন থাকতে হবে, যেমন SEO-friendly URL, আলাদা মেটা ডেটা, এবং SEO-ভিত্তিক সাইটম্যাপ।
+ফলব্যাক সিস্টেম: যদি কোনো নির্দিষ্ট ভাষার জন্য কনটেন্ট না থাকে, তাহলে তা ডিফল্টভাবে ইংরেজিতে দেখাবে, যাতে ব্যবহারকারীরা সর্বদা কনটেন্ট পেতে পারে।
+পারফরম্যান্স ও ইউজার এক্সপেরিয়েন্স: ওয়েবসাইটের লোড টাইম দ্রুত রাখতে হবে, সব ভাষা ও পেজে সমান পারফরম্যান্স নিশ্চিত করতে হবে, এবং রেসপন্সিভ ডিজাইন রাখতে হবে, যাতে সকল ডিভাইসে ভালোভাবে কাজ করে।
+
+এই সংক্ষিপ্ত এবং পরিষ্কার প্রম্প্টটি তুমি তোমার AI বিল্ডার বা ডেভেলপারকে দিলে, তারা তোমার ব্লগিং ওয়েবসাইটের জন্য প্রয়োজনীয় সমস্ত ফাংশনালিটি বাস্তবায়ন করতে পারবে।
+
+“আচ্ছা তুমি এই জিনিসটা মানে একটু ভালোভাবে বলো যাতে আমাকে জিনিসটা বানায় দিতে পারে।”
+00:04
+
+নিশ্চিতভাবে, আমি তোমার জন্য পুরো প্রম্প্টটি পরিষ্কার ও গঠনমূলকভাবে আবার বলছি, যাতে তুমি এটি সরাসরি AI বিল্ডার বা ডেভেলপারকে দিতে পারো এবং তারা সহজে কাজটি করতে পারে।
+
+আমি একটি বহুভাষিক ব্লগিং ওয়েবসাইট তৈরি করতে চাই, যেখানে নিম্নলিখিত সমস্ত ফিচার অন্তর্ভুক্ত থাকবে:
+
+বহুভাষিক সমর্থন: ওয়েবসাইটে ১২টি ভাষা থাকবে: English, Spanish, Hindi, Arabic, French, Bengali, German, Portuguese, Korean, Russian, Mandarin Chinese, এবং Japanese। প্রতিটি ভাষার জন্য SEO-ফ্রেন্ডলি URL, hreflang ট্যাগ, এবং পৃথক মেটা টাইটেল ও ডেসক্রিপশন থাকতে হবে।
+অ্যাডমিন প্যানেল কাস্টমাইজেশন: অ্যাডমিন প্যানেলে একটি ক্যাটাগরি ম্যানেজমেন্ট সিস্টেম থাকতে হবে, যেখানে আমি সহজে ক্যাটাগরি নাম পরিবর্তন, নতুন ক্যাটাগরি যোগ, এবং ক্যাটাগরি মুছে ফেলতে পারব। ক্যাটাগরি হায়ারার্কি (প্যারেন্ট ও সাব-ক্যাটাগরি) সমর্থন থাকতে হবে, এবং প্রতিটি ক্যাটাগরির জন্য SEO সেটিংস (মেটা টাইটেল, ডেসক্রিপশন) এডিট করা যাবে।
+পোস্ট কাস্টমাইজেশন: পোস্ট তৈরি করার সময়, আমি পোস্টের জন্য কাস্টম URL, একটি প্রধান ইমেজ URL, ভিডিও লিঙ্ক, এবং সম্পর্কিত প্রোডাক্ট যোগ করতে চাই। পোস্টে পণ্য তালিকা, ট্যাগ, ক্যাটাগরি, এবং SEO তথ্য (মেটা টাইটেল, ডেসক্রিপশন) যুক্ত করার অপশন থাকবে। পোস্টের পজিশন (উপর/নিচ) নিয়ন্ত্রণ এবং একটি WYSIWYG এডিটর (রিচ টেক্সট এডিটর) থাকা জরুরি।
+প্রোডাক্ট ও টুলস সিস্টেম: প্রোডাক্ট এবং টুল সম্পর্কিত তথ্য আলাদা টেবিলে থাকবে, যেখানে প্রতিটি প্রোডাক্টের ছবি, নাম, দাম, রিভিউ ইত্যাদি থাকবে। পোস্টের সাথে প্রোডাক্ট যুক্ত করার অপশন থাকবে, যাতে পোস্টে প্রোডাক্ট রিভিউ বা তুলনা দেখানো যায়।
+টপ ৫ তালিকা এবং তুলনা: প্রতিটি ক্যাটাগরির জন্য একটি 'Top 5' তালিকা তৈরি করতে হবে, যেখানে সেরা ৫ পণ্য, টুল, বা সফটওয়্যার তালিকাভুক্ত থাকবে। তুলনা পৃষ্ঠাগুলোর জন্য একটি তুলনা টেবিল থাকতে হবে, যাতে ব্যবহারকারীরা বিভিন্ন পণ্য তুলনা করতে পারে।
+SEO ফ্রেন্ডলি ডিজাইন: প্রতিটি পৃষ্ঠা, পোস্ট, ক্যাটাগরি, এবং পণ্য পৃষ্ঠার জন্য SEO অপ্টিমাইজেশন নিশ্চিত করতে হবে, যেমন SEO-ফ্রেন্ডলি URL, আলাদা মেটা ডেটা, এবং একটি SEO-ভিত্তিক সাইটম্যাপ।
+ফলব্যাক সিস্টেম: যদি কোনো ভাষার জন্য কনটেন্ট অনুপস্থিত থাকে, তাহলে সেটি ডিফল্টভাবে ইংরেজিতে দেখাতে হবে, যাতে সব ব্যবহারকারী কনটেন্ট পেতে পারে।
+পারফরম্যান্স ও ইউজার এক্সপেরিয়েন্স: পুরো সাইটের লোড টাইম দ্রুত রাখতে হবে, প্রতিটি ভাষা ও পেজে সমান পারফরম্যান্স নিশ্চিত করতে হবে, এবং রেসপন্সিভ ডিজাইন রাখতে হবে, যাতে সকল ডিভাইসে (ডেস্কটপ, ট্যাব, মোবাইল) ভালোভাবে কাজ করে।
+
+এই প্রম্প্টটি ব্যবহার করে, দয়া করে একটি পূর্ণাঙ্গ, বহুভাষিক, SEO-ফ্রেন্ডলি ব্লগিং ওয়েবসাইট তৈরি করুন, যেখানে আমি অ্যাডমিন প্যানেল থেকে সমস্ত ক্যাটাগরি, পোস্ট, প্রোডাক্ট, এবং তুলনা সহজে কাস্টমাইজ করতে পারব, এবং ব্যবহারকারীরা বিশ্বব্যাপী ভাষাভিত্তিক কনটেন্ট উপভোগ করতে পারবে।
+
+এইভাবে, তুমি স্পষ্টভাবে সব ফিচার, SEO, এবং অ্যাডমিন কন্ট্রোলের দাবি উল্লেখ করলে, AI বিল্ডার বা ডেভেলপার সহজে তোমার প্রয়োজনীয় ওয়েবসাইট তৈরি করতে পারবে।
+
+“Hello ChatGPT.”
+00:00
+
+তোমার ভালো লাগার জন্য ধন্যবাদ। যদি ভবিষ্যতে আর কোনো ফিচার বা পরিবর্তন দরকার হয়, অথবা নতুন কোনো পরিকল্পনা নিয়ে কাজ করতে চাও, তাহলে নির্দ্বিধায় আমাকে জানাও। আমি তোমার পরিকল্পনা অনুযায়ী সহায়তা করতে প্রস্তুত।

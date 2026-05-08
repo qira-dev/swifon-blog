@@ -1,0 +1,628 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is([data-theme-dark] *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-popover-border: hsl(var(--popover-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary-border: var(--primary-border);
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-secondary-border: var(--secondary-border);
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-muted-border: var(--muted-border);
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-accent-border: var(--accent-border);
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-destructive-border: var(--destructive-border);
+
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-primary-border: var(--sidebar-primary-border);
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-accent-border: var(--sidebar-accent-border);
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+
+  --font-sans: var(--app-font-sans);
+  --font-serif: var(--app-font-serif);
+  --font-mono: var(--app-font-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/* ─── Shared constants ─── */
+:root {
+  --button-outline: rgba(255,255,255, .10);
+  --badge-outline: rgba(255,255,255, .05);
+  --opaque-button-border-intensity: -8;
+  --elevate-1: rgba(255,255,255, .03);
+  --elevate-2: rgba(255,255,255, .06);
+  --app-font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  --app-font-serif: Georgia, serif;
+  --app-font-mono: 'Spline Sans Mono', monospace;
+  --radius: 0.5rem;
+  --tracking-normal: 0em;
+}
+
+/* ─── Computed border helpers (always recalculated from primary) ─── */
+:root,
+[data-theme] {
+  --sidebar-primary-border: hsl(var(--sidebar-primary));
+  --sidebar-accent-border: hsl(var(--sidebar-accent));
+  --primary-border: hsl(var(--primary));
+  --secondary-border: hsl(var(--secondary));
+  --muted-border: hsl(var(--muted));
+  --accent-border: hsl(var(--accent));
+  --destructive-border: hsl(var(--destructive));
+}
+
+/* ════════════════════════════════════════════════════
+   THEME 1 · CYBERPUNK  ⚡  (dark default)
+   Electric cyan on deep black
+   ════════════════════════════════════════════════════ */
+:root,
+[data-theme="cyberpunk"] {
+  --background: 220 14% 6%;
+  --foreground: 210 20% 96%;
+
+  --card: 220 12% 9%;
+  --card-foreground: 210 20% 96%;
+  --card-border: 220 10% 16%;
+
+  --popover: 220 14% 8%;
+  --popover-foreground: 210 20% 96%;
+  --popover-border: 220 10% 16%;
+
+  --primary: 183 100% 50%;
+  --primary-foreground: 220 14% 4%;
+
+  --secondary: 220 10% 14%;
+  --secondary-foreground: 210 20% 96%;
+
+  --muted: 220 10% 14%;
+  --muted-foreground: 220 8% 50%;
+
+  --accent: 220 10% 14%;
+  --accent-foreground: 210 20% 96%;
+
+  --destructive: 0 90% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 220 10% 16%;
+  --input: 220 10% 14%;
+  --ring: 183 100% 50%;
+
+  --sidebar: 220 14% 6%;
+  --sidebar-foreground: 210 20% 96%;
+  --sidebar-border: 220 10% 16%;
+  --sidebar-primary: 183 100% 50%;
+  --sidebar-primary-foreground: 220 14% 4%;
+  --sidebar-accent: 220 10% 14%;
+  --sidebar-accent-foreground: 210 20% 96%;
+  --sidebar-ring: 183 100% 50%;
+
+  --chart-1: 183 100% 50%;
+  --chart-2: 43 100% 55%;
+  --chart-3: 270 80% 60%;
+  --chart-4: 27 100% 60%;
+  --chart-5: 142 80% 50%;
+}
+
+/* ════════════════════════════════════════════════════
+   THEME 2 · MIDNIGHT  🌙  (dark)
+   Sky blue on deep navy
+   ════════════════════════════════════════════════════ */
+[data-theme="midnight"] {
+  --background: 216 45% 7%;
+  --foreground: 210 25% 95%;
+
+  --card: 216 38% 10%;
+  --card-foreground: 210 25% 95%;
+  --card-border: 216 30% 18%;
+
+  --popover: 216 42% 9%;
+  --popover-foreground: 210 25% 95%;
+  --popover-border: 216 30% 18%;
+
+  --primary: 214 96% 68%;
+  --primary-foreground: 220 50% 10%;
+
+  --secondary: 216 30% 14%;
+  --secondary-foreground: 210 25% 95%;
+
+  --muted: 216 30% 14%;
+  --muted-foreground: 216 20% 52%;
+
+  --accent: 216 30% 14%;
+  --accent-foreground: 210 25% 95%;
+
+  --destructive: 0 90% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 216 30% 18%;
+  --input: 216 30% 14%;
+  --ring: 214 96% 68%;
+
+  --sidebar: 216 45% 5%;
+  --sidebar-foreground: 210 25% 95%;
+  --sidebar-border: 216 30% 14%;
+  --sidebar-primary: 214 96% 68%;
+  --sidebar-primary-foreground: 220 50% 10%;
+  --sidebar-accent: 216 30% 12%;
+  --sidebar-accent-foreground: 210 25% 95%;
+  --sidebar-ring: 214 96% 68%;
+
+  --chart-1: 214 96% 68%;
+  --chart-2: 183 100% 50%;
+  --chart-3: 270 80% 60%;
+  --chart-4: 43 100% 55%;
+  --chart-5: 142 80% 50%;
+}
+
+/* ════════════════════════════════════════════════════
+   THEME 3 · EMERALD  🌿  (dark)
+   Vivid green on forest black
+   ════════════════════════════════════════════════════ */
+[data-theme="emerald"] {
+  --background: 150 40% 5%;
+  --foreground: 145 20% 95%;
+
+  --card: 150 30% 8%;
+  --card-foreground: 145 20% 95%;
+  --card-border: 150 22% 15%;
+
+  --popover: 150 38% 7%;
+  --popover-foreground: 145 20% 95%;
+  --popover-border: 150 22% 15%;
+
+  --primary: 142 72% 50%;
+  --primary-foreground: 150 40% 5%;
+
+  --secondary: 150 22% 12%;
+  --secondary-foreground: 145 20% 95%;
+
+  --muted: 150 22% 12%;
+  --muted-foreground: 150 15% 50%;
+
+  --accent: 150 22% 12%;
+  --accent-foreground: 145 20% 95%;
+
+  --destructive: 0 90% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 150 22% 15%;
+  --input: 150 22% 12%;
+  --ring: 142 72% 50%;
+
+  --sidebar: 150 40% 4%;
+  --sidebar-foreground: 145 20% 95%;
+  --sidebar-border: 150 22% 12%;
+  --sidebar-primary: 142 72% 50%;
+  --sidebar-primary-foreground: 150 40% 5%;
+  --sidebar-accent: 150 22% 10%;
+  --sidebar-accent-foreground: 145 20% 95%;
+  --sidebar-ring: 142 72% 50%;
+
+  --chart-1: 142 72% 50%;
+  --chart-2: 183 100% 50%;
+  --chart-3: 43 100% 55%;
+  --chart-4: 270 80% 60%;
+  --chart-5: 0 90% 60%;
+}
+
+/* ════════════════════════════════════════════════════
+   THEME 4 · OBSIDIAN  👑  (dark)
+   Golden amber on deep violet-black
+   ════════════════════════════════════════════════════ */
+[data-theme="obsidian"] {
+  --background: 265 50% 5%;
+  --foreground: 265 15% 95%;
+
+  --card: 265 40% 8%;
+  --card-foreground: 265 15% 95%;
+  --card-border: 265 30% 16%;
+
+  --popover: 265 48% 7%;
+  --popover-foreground: 265 15% 95%;
+  --popover-border: 265 30% 16%;
+
+  --primary: 43 100% 55%;
+  --primary-foreground: 265 50% 5%;
+
+  --secondary: 265 30% 12%;
+  --secondary-foreground: 265 15% 95%;
+
+  --muted: 265 30% 12%;
+  --muted-foreground: 265 15% 50%;
+
+  --accent: 265 30% 12%;
+  --accent-foreground: 265 15% 95%;
+
+  --destructive: 0 90% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 265 30% 16%;
+  --input: 265 30% 12%;
+  --ring: 43 100% 55%;
+
+  --sidebar: 265 50% 4%;
+  --sidebar-foreground: 265 15% 95%;
+  --sidebar-border: 265 30% 12%;
+  --sidebar-primary: 43 100% 55%;
+  --sidebar-primary-foreground: 265 50% 5%;
+  --sidebar-accent: 265 30% 10%;
+  --sidebar-accent-foreground: 265 15% 95%;
+  --sidebar-ring: 43 100% 55%;
+
+  --chart-1: 43 100% 55%;
+  --chart-2: 27 100% 60%;
+  --chart-3: 265 80% 60%;
+  --chart-4: 183 100% 50%;
+  --chart-5: 142 80% 50%;
+}
+
+/* ════════════════════════════════════════════════════
+   THEME 5 · CRIMSON  🌹  (dark)
+   Hot pink on void black
+   ════════════════════════════════════════════════════ */
+[data-theme="crimson"] {
+  --background: 340 35% 5%;
+  --foreground: 0 15% 95%;
+
+  --card: 340 25% 8%;
+  --card-foreground: 0 15% 95%;
+  --card-border: 340 18% 15%;
+
+  --popover: 340 32% 7%;
+  --popover-foreground: 0 15% 95%;
+  --popover-border: 340 18% 15%;
+
+  --primary: 330 85% 65%;
+  --primary-foreground: 340 35% 5%;
+
+  --secondary: 340 18% 12%;
+  --secondary-foreground: 0 15% 95%;
+
+  --muted: 340 18% 12%;
+  --muted-foreground: 340 10% 50%;
+
+  --accent: 340 18% 12%;
+  --accent-foreground: 0 15% 95%;
+
+  --destructive: 0 90% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 340 18% 15%;
+  --input: 340 18% 12%;
+  --ring: 330 85% 65%;
+
+  --sidebar: 340 35% 4%;
+  --sidebar-foreground: 0 15% 95%;
+  --sidebar-border: 340 18% 12%;
+  --sidebar-primary: 330 85% 65%;
+  --sidebar-primary-foreground: 340 35% 5%;
+  --sidebar-accent: 340 18% 10%;
+  --sidebar-accent-foreground: 0 15% 95%;
+  --sidebar-ring: 330 85% 65%;
+
+  --chart-1: 330 85% 65%;
+  --chart-2: 183 100% 50%;
+  --chart-3: 270 80% 60%;
+  --chart-4: 43 100% 55%;
+  --chart-5: 142 80% 50%;
+}
+
+/* ════════════════════════════════════════════════════
+   THEME 6 · SLATE PRO  💼  (light)
+   Indigo on clean light gray
+   ════════════════════════════════════════════════════ */
+[data-theme="slate"] {
+  --background: 220 14% 96%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --card-border: 220 13% 88%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --popover-border: 220 13% 88%;
+
+  --primary: 239 84% 67%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 220 13% 91%;
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 220 13% 91%;
+  --muted-foreground: 220 9% 46%;
+
+  --accent: 220 13% 91%;
+  --accent-foreground: 222 47% 11%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 220 13% 88%;
+  --input: 220 13% 91%;
+  --ring: 239 84% 67%;
+
+  /* Dark sidebar even on light theme — standard admin pattern */
+  --sidebar: 220 22% 18%;
+  --sidebar-foreground: 210 20% 95%;
+  --sidebar-border: 220 18% 26%;
+  --sidebar-primary: 239 84% 67%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 18% 24%;
+  --sidebar-accent-foreground: 210 20% 95%;
+  --sidebar-ring: 239 84% 67%;
+
+  --chart-1: 239 84% 67%;
+  --chart-2: 183 100% 40%;
+  --chart-3: 27 100% 50%;
+  --chart-4: 270 80% 55%;
+  --chart-5: 142 72% 40%;
+}
+
+/* ════════════════════════════════════════════════════
+   THEME 7 · PARCHMENT  📰  (light)
+   Deep teal on warm cream
+   ════════════════════════════════════════════════════ */
+[data-theme="parchment"] {
+  --background: 38 40% 95%;
+  --foreground: 25 25% 12%;
+
+  --card: 40 30% 99%;
+  --card-foreground: 25 25% 12%;
+  --card-border: 38 22% 85%;
+
+  --popover: 40 30% 99%;
+  --popover-foreground: 25 25% 12%;
+  --popover-border: 38 22% 85%;
+
+  --primary: 175 72% 32%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 38 22% 89%;
+  --secondary-foreground: 25 25% 12%;
+
+  --muted: 38 22% 89%;
+  --muted-foreground: 38 10% 45%;
+
+  --accent: 38 22% 89%;
+  --accent-foreground: 25 25% 12%;
+
+  --destructive: 0 84% 55%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 38 22% 85%;
+  --input: 38 22% 89%;
+  --ring: 175 72% 32%;
+
+  /* Dark sidebar on warm theme */
+  --sidebar: 25 22% 16%;
+  --sidebar-foreground: 38 15% 90%;
+  --sidebar-border: 25 18% 24%;
+  --sidebar-primary: 175 72% 45%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 25 18% 22%;
+  --sidebar-accent-foreground: 38 15% 90%;
+  --sidebar-ring: 175 72% 45%;
+
+  --chart-1: 175 72% 40%;
+  --chart-2: 38 95% 50%;
+  --chart-3: 265 70% 55%;
+  --chart-4: 27 100% 50%;
+  --chart-5: 0 84% 50%;
+}
+
+/* ─── Admin panel page transition ─── */
+@keyframes admin-page-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.995);
+    filter: blur(1px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0px);
+  }
+}
+
+.admin-page-enter {
+  animation: admin-page-in 300ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ─── Base styles ─── */
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* ─── QiraHub Neon Glow Utilities ─── */
+@layer utilities {
+  .neon-cyan {
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.7), 0 0 20px rgba(0, 229, 255, 0.4);
+  }
+  .neon-violet {
+    text-shadow: 0 0 10px rgba(167, 80, 255, 0.7), 0 0 20px rgba(167, 80, 255, 0.4);
+  }
+  .neon-amber {
+    text-shadow: 0 0 10px rgba(255, 184, 0, 0.7), 0 0 20px rgba(255, 184, 0, 0.4);
+  }
+  .card-glow-cyan:hover {
+    box-shadow: 0 0 0 1px rgba(0, 229, 255, 0.3), 0 8px 32px rgba(0, 229, 255, 0.12);
+  }
+  .card-glow-violet:hover {
+    box-shadow: 0 0 0 1px rgba(167, 80, 255, 0.3), 0 8px 32px rgba(167, 80, 255, 0.12);
+  }
+  .card-glow-amber:hover {
+    box-shadow: 0 0 0 1px rgba(255, 184, 0, 0.3), 0 8px 32px rgba(255, 184, 0, 0.12);
+  }
+  .card-glow-green:hover {
+    box-shadow: 0 0 0 1px rgba(0, 230, 118, 0.3), 0 8px 32px rgba(0, 230, 118, 0.12);
+  }
+  .card-glow-coral:hover {
+    box-shadow: 0 0 0 1px rgba(255, 71, 87, 0.3), 0 8px 32px rgba(255, 71, 87, 0.12);
+  }
+  .card-glow-primary:hover {
+    box-shadow: 0 0 0 1px color-mix(in srgb, hsl(var(--primary)) 40%, transparent),
+                0 8px 32px color-mix(in srgb, hsl(var(--primary)) 15%, transparent);
+  }
+
+  .gradient-text-cyan {
+    background: linear-gradient(135deg, #00e5ff, #00b8d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .gradient-text-violet {
+    background: linear-gradient(135deg, #a750ff, #7b2fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .gradient-text-multi {
+    background: linear-gradient(135deg, #00e5ff 0%, #a750ff 50%, #ffb800 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .gradient-text-primary {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary) / 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .section-label {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  /* Theme-aware prose for admin-injected HTML and blog content */
+  .prose-theme {
+    color: hsl(var(--foreground));
+    line-height: 1.75;
+  }
+  .prose-theme p {
+    margin-bottom: 1.25rem;
+    color: hsl(var(--foreground) / 0.8);
+  }
+  .prose-theme h1,
+  .prose-theme h2,
+  .prose-theme h3,
+  .prose-theme h4,
+  .prose-theme h5,
+  .prose-theme h6 {
+    color: hsl(var(--foreground));
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+  }
+  .prose-theme h1 { font-size: 2rem; }
+  .prose-theme h2 { font-size: 1.5rem; border-bottom: 1px solid hsl(var(--border)); padding-bottom: 0.4rem; }
+  .prose-theme h3 { font-size: 1.25rem; }
+  .prose-theme a {
+    color: hsl(var(--primary));
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .prose-theme a:hover {
+    color: hsl(var(--primary) / 0.8);
+  }
+  .prose-theme ul,
+  .prose-theme ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: hsl(var(--foreground) / 0.8);
+  }
+  .prose-theme ul { list-style-type: disc; }
+  .prose-theme ol { list-style-type: decimal; }
+  .prose-theme li { margin-bottom: 0.5rem; }
+  .prose-theme blockquote {
+    border-left: 4px solid hsl(var(--primary));
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 0;
+    color: hsl(var(--muted-foreground));
+    background: hsl(var(--muted) / 0.3);
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  .prose-theme code {
+    background: hsl(var(--muted));
+    color: hsl(var(--foreground));
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+  }
+  .prose-theme pre {
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1.25rem;
+  }
+  .prose-theme pre code {
+    background: transparent;
+    padding: 0;
+  }
+  .prose-theme img {
+    border-radius: 0.75rem;
+    max-width: 100%;
+    height: auto;
+  }
+  .prose-theme hr {
+    border-color: hsl(var(--border));
+    margin: 2rem 0;
+  }
+  .prose-theme strong { color: hsl(var(--foreground)); font-weight: 700; }
+  .prose-theme table { width: 100%; border-collapse: collapse; margin-bottom: 1.25rem; }
+  .prose-theme th { background: hsl(var(--muted)); color: hsl(var(--foreground)); font-weight: 600; padding: 0.75rem 1rem; border: 1px solid hsl(var(--border)); text-align: left; }
+  .prose-theme td { padding: 0.75rem 1rem; border: 1px solid hsl(var(--border)); color: hsl(var(--foreground) / 0.8); }
+  .prose-theme tr:nth-child(even) td { background: hsl(var(--muted) / 0.3); }
+}
